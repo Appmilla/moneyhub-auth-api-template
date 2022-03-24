@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Appmilla",
+    "classifications": [ "Web", "MVC", "Razor Pages" ],
+    "name": "Moneyhub ASP.NET Auth API",
+    "identity": "MoneyhubAuthAPI", 
+    "shortName": "moneyhubauthapi",                 
+    "tags": {
+        "language": "C#",
+        "type": "project"                      
+    },
+    "sourceName": "Moneyhub.Auth", 
+    "preferNameDirectory" : "true"
+}

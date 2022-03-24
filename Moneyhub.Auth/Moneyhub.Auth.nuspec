@@ -1,0 +1,29 @@
+<package>
+  <metadata>
+    <id>Appmilla.MoneyhubAuthApi</id>
+    <version>1.0</version>
+    <authors>Appmilla</authors>
+    <title>Moneyhub ASP.NET Core Auth API</title>
+    <description>An .Net CLI template to create an ASP.Net Core API for Moneyhub access protected by Duende IdentityServer</description>
+    <projectUrl>https://github.com/Appmilla/moneyhub-auth-api-template</projectUrl>
+    <repository type="git" url="https://github.com/Appmilla/moneyhub-auth-api-template.git" branch="main" />
+    <license type="expression">MIT</license>
+    <releaseNotes>Initial release</releaseNotes> 
+    <tags>Moneyhub ASP.NET</tags>
+    <dependencies> 
+      <dependency id="Azure.Extensions.AspNetCore.Configuration.Secrets" version="1.0.0" /> 
+      <dependency id="Azure.Identity" version="1.4.0" /> 
+      <dependency id="Microsoft.AspNetCore.Authentication.JwtBearer" version="6.0.3" /> 
+      <dependency id="Moneyhub.ApiClient" version="1.0.1" /> 
+      <dependency id="Refit.HttpClientFactory" version="6.3.2" /> 
+      <dependency id="Swashbuckle.AspNetCore" version="6.2.3" /> 
+    </dependencies>
+    <language>en-US</language>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+<files>
+  <file src="**" exclude= "bin\**;obj\**;.vs\**;.vscode\**;.git\**;*.nuspec" target="content/" />
+  </files>
+</package>
