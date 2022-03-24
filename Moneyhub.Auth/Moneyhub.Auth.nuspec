@@ -1,7 +1,7 @@
 <package>
   <metadata>
     <id>Appmilla.MoneyhubAuthApi</id>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <authors>Appmilla</authors>
     <title>Moneyhub ASP.NET Core Auth API</title>
     <description>An .Net CLI template to create an ASP.Net Core API for Moneyhub access protected by Duende IdentityServer</description>
